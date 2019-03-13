@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hydb", "hydb.vcproj", "{AD59ECD5-1571-4150-9B19-49C2CBEFD254}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "..\demo\demo.vcproj", "{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254} = {AD59ECD5-1571-4150-9B19-49C2CBEFD254}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug.unicode|Win32 = Debug.unicode|Win32
+		Debug|Win32 = Debug|Win32
+		Release.unicode|Win32 = Release.unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Debug.unicode|Win32.ActiveCfg = Debug.unicode|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Debug.unicode|Win32.Build.0 = Debug.unicode|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Debug|Win32.Build.0 = Debug|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Release.unicode|Win32.ActiveCfg = Release.unicode|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Release.unicode|Win32.Build.0 = Release.unicode|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Release|Win32.ActiveCfg = Release|Win32
+		{AD59ECD5-1571-4150-9B19-49C2CBEFD254}.Release|Win32.Build.0 = Release|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Debug.unicode|Win32.ActiveCfg = Debug|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Debug.unicode|Win32.Build.0 = Debug|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Debug|Win32.Build.0 = Debug|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Release.unicode|Win32.ActiveCfg = Release|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Release.unicode|Win32.Build.0 = Release|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Release|Win32.ActiveCfg = Release|Win32
+		{B65FAF17-DC63-49EE-9E08-DAE65894FD8E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

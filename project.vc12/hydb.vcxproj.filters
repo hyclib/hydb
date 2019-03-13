@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{1b3a74bc-49dc-4afe-acdc-5d1fd0ac8fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{1c54adcc-6e42-4913-8abd-da134603d1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\sqlite">
+      <UniqueIdentifier>{39960644-5070-485a-b446-b2e758d5dc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\mysql">
+      <UniqueIdentifier>{4ef36aa6-6671-4a54-9a9d-e1f99f9bed04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{81e974ed-e201-4825-a043-65907503d590}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\predefine.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sqlite\hy_sqlite3.h">
+      <Filter>source\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sqlite\sqliteDataBase.h">
+      <Filter>source\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sqlite\sqliteDataSet.h">
+      <Filter>source\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\mysql\mysqlDataBase.h">
+      <Filter>source\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\mysql\mysqlDataSet.h">
+      <Filter>source\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\mysql\pingThread.hpp">
+      <Filter>source\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils\db_log.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils\db_stringUtils.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils\db_thread.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils\db_encodingUtils.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hydb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\hydb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sqlite\hy_shell.c">
+      <Filter>source\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sqlite\hy_sqlite3.c">
+      <Filter>source\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sqlite\sqliteDataBase.cpp">
+      <Filter>source\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sqlite\sqliteDataSet.cpp">
+      <Filter>source\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mysql\mysqlDataBase.cpp">
+      <Filter>source\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mysql\mysqlDataSet.cpp">
+      <Filter>source\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\db_stringUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\db_thread_linux.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\db_thread_win32.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\db_encodingUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
